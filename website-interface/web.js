@@ -7,6 +7,7 @@ let boat = document.getElementById('boat');
 let ahmed = document.querySelector('.ahmed');
 window.onscroll = function() {
     let value = scrollY
+
     stars.style.left = value + 'px';
     moon.style.top = value * 3 + 'px'
     mountains3.style.top = value * 1.5 + 'px'
